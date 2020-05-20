@@ -29,7 +29,7 @@ public class TestCircle {
 						+  "		area: " + Math.round(circleArr[i].getArea()*100)*1.0/100);	
 			}else {	
 				System.out.println( i+1 +" "+ circleArr[i].toString() 
-						+  "		area: " + Math.round(circleArr[i].getArea()*100)*1.0/100);		
+						+  "		area: " + Math.round(circleArr[i].getArea()*100)/100.0);		
 			}
 				
 		}
