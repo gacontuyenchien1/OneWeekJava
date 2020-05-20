@@ -10,6 +10,7 @@ public class Circle {
 	
 	private double radius;
 	public String color;
+	int testsamepackage;
 	
 	public Circle(){
 		radius = 1.0;
